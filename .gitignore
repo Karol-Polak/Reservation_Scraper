@@ -1,0 +1,7 @@
+.env
+seen_slots.json
+__pycache__/
+.venv/
+venv/
+.idea/
+.DS_Store
