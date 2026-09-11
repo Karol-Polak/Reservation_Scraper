@@ -45,10 +45,10 @@ def main():
 
         data = get_slots()
         data = {
-            "1": {
-                "2099-01-01": [
+            "2": {
+                "2109-01-01": [
                     {
-                        "time": "12:34",
+                        "time": "12:14",
                         "used": 0,
                         "booked": False,
                     }
