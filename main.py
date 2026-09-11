@@ -44,17 +44,6 @@ def main():
         logging.info("Sprawdzam dostępne terminy...")
 
         data = get_slots()
-        data = {
-            "2": {
-                "2109-01-01": [
-                    {
-                        "time": "12:14",
-                        "used": 0,
-                        "booked": False,
-                    }
-                ]
-            }
-        }
         available_slots = extract_available_slots(data)
 
         if not available_slots:
